@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <!-- AOS Animation library -->
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
     <!-- Header -->
@@ -45,6 +46,9 @@
             <div class="about-content">
                 
                 <img src="tennnaigazou1.jpg" alt="店内写真" loading="lazy">
+                <img src="tennnaigazou2.jpg" alt="店内写真2" loading="lazy">
+                <img src="tennnaigazou3.jpg" alt="店内写真3" loading="lazy">
+                <img src="tennnaigazou4.jpg" alt="店内写真4" loading="lazy">
                 <div>
                     <p>自家製スイーツやトロピカルドリンクなど、素材にこだわったメニューをご提供しています。ハワイアンミュージックと香ばしいコーヒーの香りに包まれながら、ゆったりとしたひとときをお楽しみください。</p>
                 </div>
@@ -73,19 +77,80 @@
         <div class="container">
             <h2 class="section-title">ハワイ雑貨</h2>
             <p class="lead">日常にちょっとしたハワイを。</p>
-            <div class="goods-grid">
-                <img src="tennnaigazou2.jpg" alt="店内写真2" loading="lazy">
-                <img src="tennnaigazou3.jpg" alt="店内写真3" loading="lazy">
-                <img src="tennnaigazou4.jpg" alt="店内写真4" loading="lazy">
+            <div class="swiper goods-swiper" data-aos="zoom-in">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+    <a href="https://shirotsume4.shopselect.net/items/94217707" target="_blank" rel="noopener">
+        <img src="plumeria_set.jpg" alt="プルメリアアロマセット">
+    </a>
+    <div class="goods-caption">
+        <span class="goods-title">素敵な毎日の始まりには素敵な香りで♪大人なプルメリアの香りフレグランスセット</span><br>
+        <span class="goods-price">¥4,000</span>
+    </div>
+</div>
+                    <div class="swiper-slide">
+    <a href="https://shirotsume4.shopselect.net/items/110768554" target="_blank" rel="noopener">
+        <img src="surf_trip_bottle.jpg" alt="サーフトリップボトル">
+    </a>
+    <div class="goods-caption">
+        <span class="goods-title">ハワイの素敵な景色をプリントしたステンレスボトル</span><br>
+        <span class="goods-price">¥3,520</span>
+    </div>
+</div>
+                    <div class="swiper-slide">
+    <a href="https://shirotsume4.shopselect.net/items/109040400" target="_blank" rel="noopener">
+        <img src="aloha_arm_cover.jpg" alt="アロハアームカバー">
+    </a>
+    <div class="goods-caption">
+        <span class="goods-title">接触冷感でひんやり感が続くALOHAアームカバー【ブラック】</span><br>
+        <span class="goods-price">¥1,600</span>
+    </div>
+</div>
+                        <div class="swiper-slide">
+    <a href="https://shirotsume4.shopselect.net/items/108525356" target="_blank" rel="noopener">
+        <img src="starfish_planter.jpg" alt="スターフィッシュプランター">
+    </a>
+    <div class="goods-caption">
+        <span class="goods-title">手間なくお部屋に癒しを♪ハワイを思い出すフェイクプランツMサイズ【シーホース】【スターフィッシュ】</span><br>
+        <span class="goods-price">¥1,320</span>
+    </div>
+</div>
+                        <div class="swiper-slide">
+    <a href="https://shirotsume4.shopselect.net/items/102733099" target="_blank" rel="noopener">
+        <img src="monstera_umbrella.jpg" alt="モンステラ晴雨兼用傘">
+    </a>
+    <div class="goods-caption">
+        <span class="goods-title">雨の日も晴れの日もアロハ気分でるんるん♪な折り畳み傘【ブルー】</span><br>
+        <span class="goods-price">¥3,080</span>
+    </div>
+</div>
+                        <div class="swiper-slide">
+    <a href="https://shirotsume4.shopselect.net/items/72881341" target="_blank" rel="noopener">
+        <img src="doraemon_hawaii_tote.jpg" alt="ドラえもんハワイミニトート">
+    </a>
+    <div class="goods-caption">
+        <span class="goods-title">【ハワイ限定品】ちょっとそこまでドラちゃんと一緒にお散歩♪日焼けドラえもんミニトートバッグ“ブラック”</span><br>
+        <span class="goods-price">¥3,200</span>
+    </div>
+</div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
     </section>
 
-    <!-- Menu -->
+    <div class="menu-link-wrapper">
+    <a href="https://shirotsume4.shopselect.net" class="btn" target="_blank" rel="noopener">もっと見る</a>
+</div>
+
+<!-- Menu -->
     <section id="menu" class="section" data-aos="fade-up">
         <div class="container">
             <h2 class="section-title">メニュー</h2>
-            <div class="menu-items">
+            <div class="swiper menu-swiper" data-aos="zoom-in">
+  <div class="swiper-wrapper">
                 <div class="menu-item">
                     <img src="kafemanyu-1.jpg" alt="ストロベリーパンケーキ" loading="lazy">
                     <h3>ストロベリーパンケーキ</h3>
@@ -96,14 +161,85 @@
                     <h3>ロコモコカレー</h3>
                     <p>目玉焼きとハンバーグを乗せたボリューム満点のハワイアンカレー。</p>
                 </div>
-                <div class="menu-item">
+                <div class="swiper-slide">
                     <img src="kafemanyu-3.jpg" alt="フレンチトーストプレート" loading="lazy">
                     <h3>フレンチトーストプレート</h3>
                     <p>厚切りトーストにメープルをかけて、南国サラダを添えて。</p>
                 </div>
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+<div class="menu-text-list">
+  <h3>ドリンク</h3>
+  <ul class="drink-list">
+    <li>コナコーヒー / 500えん</li>
+    <li>ハワイアンナチュラルティー / 500えん</li>
+    <li>ブルーラテ / 450えん</li>
+    <li>ルージュラテ / 450えん</li>
+    <li>アップルティー / 450えん</li>
+    <li>ブルーハワイ / 400えん</li>
+    <li>レモネード / 400えん</li>
+    <li>コロナBeer / 500えん</li>
+    <li>ノンアルコールビール / 350えん</li>
+    <li>その他トッピングもできます</li>
+    
+    
+    
+    
+  </ul>
+  <h3>フード</h3>
+  <ul class="food-list">
+    <li>ハワイアンキーマカレー / 1000えん</li>
+    <li>ロコモコプレート丼 / 1000えん</li>
+    <li>チキンプレート / 1300えん</li>
+    <li>フルーツパンケーキ / 1000えん</li>
+    <li>キッズプレート / 800えん</li>
+  </ul>
+</div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </ul>
             </div>
-            <div class="menu-link-wrapper">
+             <div class="menu-link-wrapper">
                 <a href="menu.html" class="btn">詳しいメニューはこちら</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" style="display:none" class="section section-alt" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">最新ブログ</h2>
+            <p class="lead">スタッフブログをチェック！</p>
+            <div class="swiper blog-swiper" data-aos="zoom-in">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="https://shirotsume4.shopselect.net/blog/2025/06/21/110000" target="_blank" rel="noopener"><img src="blog_20250621_earring.jpg" alt="プルメリアピアス"></a></div>
+                    <div class="swiper-slide">
+    <a href="https://shirotsume4.shopselect.net/items/94217707" target="_blank" rel="noopener">
+        <img src="plumeria_set.jpg" alt="プルメリアアロマセット">
+    </a>
+    <div class="goods-caption">
+        <span class="goods-title">素敵な毎日の始まりには素敵な香りで♪大人なプルメリアの香りフレグランスセット</span><br>
+        <span class="goods-price">¥4,000</span>
+    </div>
+</div>
+                    <div class="swiper-slide"><a href="https://example.com/blog3" target="_blank" rel="noopener"><img src="blog3.jpg" alt="ブログ3"></a></div>
+                    <div class="swiper-slide"><a href="https://example.com/blog4" target="_blank" rel="noopener"><img src="blog4.jpg" alt="ブログ4"></a></div>
+                    <div class="swiper-slide"><a href="https://example.com/blog5" target="_blank" rel="noopener"><img src="blog5.jpg" alt="ブログ5"></a></div>
+                    <div class="swiper-slide"><a href="https://example.com/blog6" target="_blank" rel="noopener"><img src="blog6.jpg" alt="ブログ6"></a></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
     </section>
@@ -142,6 +278,7 @@
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
