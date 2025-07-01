@@ -117,6 +117,11 @@ img {
   font-size: 1.1rem;
 }
 /* Owner */
+.owner-section .section-title{
+  font-family:'Noto Sans JP', sans-serif;
+  font-weight:700;
+  letter-spacing:0.05em;
+}
 .owner-section .owner-wrapper{
   display:flex;
   flex-wrap:wrap;
@@ -247,6 +252,26 @@ img {
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+/* Menu link button (Goods) */
+.menu-link-wrapper{
+  margin-top:20px; /* below pagination dots */
+  text-align:center;
+}
+
+/* Rent info */
+.rent-info{
+  text-align:center;
+  margin-top:5px;
+}
+
+/* Parking note */
+.parking-note{
+  text-align:center;
+  font-size:1.2rem;
+  font-weight:bold;
+  margin-top:5px;
+}
+
 /* Footer */
 .footer {
   background: var(--primary);
